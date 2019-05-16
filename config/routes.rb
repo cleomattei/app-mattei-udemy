@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
-  get 'statique/accueil'
+  root 'statique#accueil'
   get 'statique/contact'
-  root "application#premier"
+  get 'statique/team'
+  get 'statique/services'
+
 end
